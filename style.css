@@ -1,0 +1,287 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+.navbar{
+    display: flex;
+}
+
+.nav-items{
+    display: flex;
+    flex:90%;
+    justify-content: center;
+    align-items: center;
+}
+.logo{
+    padding:30px 20px;
+ }
+.active-item{
+    color: #FE5E35;
+}
+.nav-item{
+    display: flex;
+    margin: 0px 50px;
+    font-size: 20px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+}
+.actions{
+    display: flex;
+    flex:5%;
+    padding-left: 30px;
+}
+.intro-section{
+    display: flex;
+}
+.left-section{
+    display: flex;
+    flex-direction: column;
+    flex:60%;
+}
+.left-section h3{
+    font-size: 40px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    margin:10px 30px;
+}
+.left-section h1{
+    font-size: 50px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900; 
+    margin:20px 40px;
+}
+.sub-headlines{
+    display: flex;
+    flex-direction: column;
+    
+}
+.sub-headline{
+    display: inline;
+    margin:12px;
+    
+
+}
+.plus{
+    border: 1px solid #FE5E35;
+    color: #ffffff;
+    font-size: 20px;
+    padding-left:  5px;
+    border-radius: 50%;
+    background-color: #FE5E35;
+}
+.pd{
+    margin:0px 100px;
+}
+.cs{
+    margin:0px 20px;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Poppins';
+}
+
+.right-section{
+    display: flex;
+    flex-direction: column;
+    flex:45%;
+}
+.hdphone{
+    position:absolute;
+    margin-left: 35px;
+}
+.discount{
+    position: absolute;
+    margin-top: 120px;
+    margin-right: 0px;
+}
+.discount-content{
+    position: relative;
+    margin-top: 268px;
+    margin-left: 30px;
+    color: #ffffff;
+}
+.discount-content h1{
+    font-size: 50px;
+    
+}
+.discount-content h4{
+    margin:0px 10px;
+
+}
+.text{
+    color: #999999;
+    margin: 40px 80px;
+}
+.dots{
+    display: flex;
+    margin-top: 150px;
+    justify-content: center;
+    
+}
+
+
+.yellow-dot{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: yellow;
+    
+}
+.tomato-dot{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: #FE5E35;
+}
+.black-dot{
+     height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: black;  
+}
+.yd{
+    margin:0px 15px;
+}
+.adc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+
+}
+.adc button{
+    color: #ffffff;
+    background-color: #FE5E35;
+    border: none;
+    padding: 15px 40px;
+    border-radius: 30px;
+    font-size: 23px;
+}
+
+.tomato-dot1{
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    background-color: #FE5E35;
+}
+.action-btns{
+    display: flex;
+    
+
+}
+.action-btn{
+    background-color: #FE5E35;
+    border: none;
+    padding:15px 35px;
+    border-radius: 30px;
+    color: #ffffff;
+    font-size: 25px;
+    
+}
+.btn1{
+    padding:10px 20px;
+}
+.btn2{
+    padding:10px 20px;
+}
+
+/* Media Queries */
+@media (max-width:680px){
+    /* Navbar */
+    .navbar{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .nav-items{
+        display: flex;
+        flex:0%;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    .logo{
+        padding: 0%;
+        margin:10px 20px;
+     }
+    
+    .nav-item{
+        display: flex;
+        margin: 0px 0px 0px 10px;
+        font-size: 20px;
+    }
+    .actions{
+        display: none;
+    }
+    .intro-section{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    /* Headphone section */
+    .right-section{
+        display: flex;
+        flex-direction: column;
+        flex:0%;
+    }
+    .hdphone img{
+        height: 250px;
+        width: 250px;
+        margin: 30px 30px 0px 30px;
+    }
+    .hdphone{
+        position:absolute;
+        
+    }
+    .discount img{
+        height: 85px;
+    }
+    .discount{
+        position: absolute;
+        margin: 85px 0px 0px 20px;
+    }
+    .discount-content{
+        position: relative;
+        margin-top: 200px;
+        margin-left: 50px;
+        color: #ffffff;
+    }
+    .discount-content h1{
+        font-size: 18px;
+        margin-left: 15px;
+        
+    }
+    .discount-content h4{
+        margin:0px 0px 0px 4px;
+        font-size: 14px;
+    }
+    .dots{
+        display: flex;
+        margin-top: 50px;
+        justify-content: center;
+        
+    }
+    
+    .action-btns{
+        display: flex;
+    }
+    .action-btn{
+        background-color: #FE5E35;
+        border: none;
+        padding:5px 35px;
+        border-radius: 30px;
+        color: #ffffff;
+        font-size: 20px;
+        margin-bottom: 30px;
+        
+    }
+    .btn1{
+        padding:10px 20px;
+    }
+    .btn2{
+        padding:10px 20px;
+    } 
+    
+
+}
