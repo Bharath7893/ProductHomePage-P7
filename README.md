@@ -16,4 +16,4 @@ Webpage built using HTML &amp; CSS without any frameworks.
 <img width="960" alt="image" src="https://user-images.githubusercontent.com/47134730/185775115-df498673-950d-47a2-a55e-cbc658f5d6e2.png">
 
 ## You can Check it Live on Below Link :
-## [Live link](https://6301301c139e417cf5e5236e--producthomepagep7.netlify.app/)
+## [Live link](https://main--producthomepage-p7.netlify.app/)
